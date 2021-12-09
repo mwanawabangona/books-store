@@ -1,50 +1,50 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Bookstore
+- The Bookstore is a website similar to the "Awesome Books" website built in the previous module. It allows a user to:
+  - Display a list of books.
+  - Add a book.
+  - Remove a selected book.
 
-# Book Store
+## Live Demo
+> Live demo link coming soon
 
-![image](.png)
+### Built With
 
-**Additional description about the project and its features**
+- [React](https://es.reactjs.org/)
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
+- [JS](https://www.javascript.com/)
 
-## ⚒️ Built With
+# Getting Started with Create React App
 
-_Languages:_
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- HTML
-- CSS
-- Javascript
+### Installation
 
-_Library:_
+1. Clone the repository
+   ```sh
+   git clone https://github.com/Chimwemwe-127001/bookstore.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run server
+   ```sh
+   npm start
+   ```
+## Author
 
-- React
-- Redux
+👤 **Chimwemwe Sinyinza**
 
-## 📡 Live Demo
-
-[Link to Live Demo](/)
-
-## 💻 Install
-
-To clone this repo go to "https://github.com/mwanawabangona/Book-store"
-
-## 🙎🏾‍♂️ Author
-
- **Ellis Ng'ona**
-
-- Github : [@mwanawabangona](https://github.com/mwanawabangona)
-- Twitter: [@ellis_aah](https://twitter.com/Ellis_aah)
-- LinkdIn : [@Ellis ngona](https://www.linkedin.com/in/Ellisnong/)
+- GitHub: [@Chimwemwe-127001](https://github.com/Chimwemwe-127001)
+- Twitter: [@chimwewme](https://twitter.com/chimwewme)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Donard97/math-magician/issues).
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
