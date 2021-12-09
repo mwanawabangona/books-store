@@ -6,10 +6,10 @@ const AddNewBook = () => (
     <input type="text" placeholder="Book title" />
     <select>
       <option value="">Category</option>
-      <option value="Romance">Romance</option>
+      <option value="Comedy">Romance</option>
       <option value="Documentary">Documentary</option>
-      <option value="Fiction">Fiction</option>
-      <option value="Crime">Crime</option>
+      <option value="Sci-Fi">Fiction</option>
+      <option value="Anime">Crime</option>
     </select>
     <button type="submit">Add</button>
   </form>
