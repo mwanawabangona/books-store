@@ -1,7 +1,6 @@
 import React from 'react';
 
-export const AddBook = () => (
-
+const AddBook = () => (
   <form>
     <input type="text" name="Title" placeholder="Title" />
     <input type="text" name="Author" placeholder="Author" />
