@@ -22,7 +22,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/Chimwemwe-127001/bookstore.git
+   git clone https://github.com/mwanawabangona/book-store.git
    ```
 2. Install NPM packages
    ```sh
@@ -36,8 +36,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 👤 **Chimwemwe Sinyinza**
 
-- GitHub: [@Chimwemwe-127001](https://github.com/Chimwemwe-127001)
-- Twitter: [@chimwewme](https://twitter.com/chimwewme)
+- GitHub: [@mwanawabangona](https://github.com/mwanawabangona)
+- Twitter: [@Ellis_aah](https://twitter.com/Ellis_aah)
 
 ## 🤝 Contributing
 
