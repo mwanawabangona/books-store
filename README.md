@@ -5,7 +5,7 @@
   - Remove a selected book.
 
 ## Live Demo
-> Live Demo [click me](https://dreamy-villani-473534.netlify.app/?)
+> Live demo link coming soon
 
 ### Built With
 
@@ -22,7 +22,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/mwanawabamgona/book-store.git
+   git clone https://github.com/Chimwemwe-127001/bookstore.git
    ```
 2. Install NPM packages
    ```sh
@@ -34,10 +34,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
    ```
 ## Author
 
-👤 **Ellis Ngona**
+👤 **Chimwemwe Sinyinza**
 
-- GitHub: [@mwanawabangona](https://github.com/mwanawabangona)
-- Twitter: [@Ellis_aah](https://twitter.com/ellis_ahh)
+- GitHub: [@Chimwemwe-127001](https://github.com/Chimwemwe-127001)
+- Twitter: [@chimwewme](https://twitter.com/chimwewme)
 
 ## 🤝 Contributing
 
