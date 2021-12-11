@@ -1,0 +1,35 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  nav h1 {
+    font-size: 2rem;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .menu {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1rem;
+  }
+  
+  .menu ul {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  
+  input {
+    margin: 5px;
+  }
