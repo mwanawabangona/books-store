@@ -1,27 +1,25 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
-import { Provider } from 'react-redux';
+import {
+  Routes,
+  Route,
+} from 'react-router-dom';
+import './App.css';
+import { useSelector } from 'react-redux';
 import Navbar from './components/Navbar';
-import store from './redux/configureStore';
-import AllBooks from './components/BookList';
+import BookList from './components/BookList';
 import Categories from './components/Categories';
 
-function App() {
+const App = () => {
+  const booksList = useSelector((state) => state.booksReducer);
   return (
-    <Provider store={store}>
-      <div className="App">
-        <Navbar />
-        <Switch>
-          <Route exact path="/">
-            <AllBooks />
-          </Route>
-          <Route path="/categories">
-            <Categories />
-          </Route>
-        </Switch>
-      </div>
-    </Provider>
+    <div className="App">
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<BookList booksList={booksList} />} />
+        <Route path="/categories" element={<Categories />} />
+      </Routes>
+    </div>
   );
-}
+};
 
 export default App;
