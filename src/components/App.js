@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import Navbar from './components/Navbar';
+import Navbar from './Navbar';
 import store from './redux/configureStore';
-import AllBooks from './components/BookList';
-import Categories from './components/Categories';
+import AllBooks from './BookList';
+import Categories from './Categories';
 
 function App() {
   return (
