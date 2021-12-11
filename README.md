@@ -34,7 +34,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
    ```
 ## Author
 
-👤 **Chimwemwe Sinyinza**
+👤 **Ellis Ngona**
 
 - GitHub: [@mwanawabangona](https://github.com/mwanawabangona)
 - Twitter: [@Ellis_aah](https://twitter.com/Ellis_aah)
