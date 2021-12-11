@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import Navbar from './components/Navbar';
 import store from './redux/configureStore';
@@ -11,14 +11,10 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <Navbar />
-        <Switch>
-          <Route exact path="/">
-            <AllBooks />
-          </Route>
-          <Route path="/categories">
-            <Categories />
-          </Route>
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<AllBooks />}/>
+          <Route exact path="/categories" element={<Categories />}/>
+        </Routes>
       </div>
     </Provider>
   );
