@@ -5,7 +5,7 @@
   - Remove a selected book .
 
 ## Live Demo
-> Live demo link coming soon
+> Live demo(click me)[https://deploy-preview-2--zen-beaver-ccb9cf.netlify.app/]
 
 ### Built With
 
