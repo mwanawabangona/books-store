@@ -22,16 +22,16 @@ export const removeBook = (payload) => ({
   payload,
 });
 
-const booksReducer = (state = initialState, action) => {
-  switch (action.type) {
+const booksReducer = (actionn, state = initialState) => {
+  switch (actionn.type) {
     case ADD_BOOK:
-      return [...state, action.payload];
+      return [...state, actionn.payload];
 
     case REMOVE_BOOK:
-      return state.filter((book) => book.id !== action.payload);
+      return state.filter((book) => book.id !== actionn.payload);
 
     case GET_BOOKS:
-      return action.payload;
+      return actionn.payload;
 
     default:
       return state;
