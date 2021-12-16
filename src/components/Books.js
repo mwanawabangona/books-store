@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getBooksList } from '../redux/Books/books';
 import BookItem from './BookItem';
 
-const Books = function () {
+const Books = () => {
   const dispatch = useDispatch();
   const booksList = useSelector((state) => state.booksReducer);
 

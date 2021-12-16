@@ -1,11 +1,9 @@
 import React from 'react';
 
-const CategoryPage = function () {
-  return (
-    <div>
-      <h1>Under Going construction!!</h1>
-    </div>
-  );
-};
+const CategoryPage = () => (
+  <div>
+    <h1>Under construction!!</h1>
+  </div>
+);
 
 export default CategoryPage;

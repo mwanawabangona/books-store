@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { deleteBook } from '../redux/Books/books';
 
-const BookItem = function ({ book }) {
+const BookItem = ({ book }) => {
   const {
     title, id, category,
   } = book;
