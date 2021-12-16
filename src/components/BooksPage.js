@@ -6,7 +6,7 @@ import Books from './Books';
 const BooksPage = () => {
   const bookList = useSelector((state) => state.booksReducer);
   return (
-    <div className="books">
+    <div className="Books">
       <Books bookList={bookList} />
       <AddNewBook />
     </div>
