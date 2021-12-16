@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
-import { postBook } from '../redux/books/books';
+import { postBook } from '../redux/Books/books';
 
 const AddNewBook = () => {
   const [inputValues, setInputValues] = useState({
@@ -36,6 +36,7 @@ const AddNewBook = () => {
         id: '',
         category: '',
       });
+      document.querySelector('.add-book-section').reset();
     }
   };
 
@@ -47,25 +48,30 @@ const AddNewBook = () => {
   };
 
   return (
-    <form className="add-book-section" onSubmit={submitBookToStore}>
-      <h1>ADD NEW BOOK</h1>
-      <input
-        type="text"
-        placeholder="Book title"
-        name="title"
-        onChange={onChange}
-        required
-      />
-      <select placeholder="categories" name="category" onChange={onChange} required>
-        <option value="">Category</option>
-        <option value="Romance">Romance</option>
-        <option value="Documentary">Documentary</option>
-        <option value="Fiction">Fiction</option>
-        <option value="Crime">Crime</option>
-      </select>
-      <button type="submit" onClick={submitBookToStore}>Add Book</button>
-      <small>{errorMsg}</small>
-    </form>
+    <>
+      <div className="hr" />
+      <form className="add-book-section d_flex" onSubmit={submitBookToStore}>
+        <h1>ADD NEW BOOK</h1>
+        <div className="add-book d_flex">
+          <input
+            type="text"
+            placeholder="Book title"
+            name="title"
+            onChange={onChange}
+            required
+          />
+          <select name="category" onChange={onChange} required>
+            <option value="" hidden>Category</option>
+            <option value="Romance">Romance</option>
+            <option value="Documentary">Documentary</option>
+            <option value="Fiction">Fiction</option>
+            <option value="Crime">Crime</option>
+          </select>
+          <button type="submit" onClick={submitBookToStore}>Add Book</button>
+        </div>
+        <small>{errorMsg}</small>
+      </form>
+    </>
   );
 };
 
