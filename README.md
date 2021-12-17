@@ -5,7 +5,7 @@
   - Remove a selected book .
 
 ## Live Demo
-> Live demo(click me)[https://deploy-preview-3--affectionate-goldstine-a573d3.netlify.app/]
+> Live demo(click me)[https://quirky-hamilton-73201b.netlify.app/]
 
 ### Built With
 
